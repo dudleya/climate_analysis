@@ -1,3 +1,4 @@
+#This library reads climate data and extracts max temperature in fahrenheit. 
 #Climate Analysis Tools
 #Using temperature conversion functions from library temerature_conversion.
 source("temp_conversion.R")
@@ -23,3 +24,4 @@ for (temp in fahr){
     print(paste("Fahrenheit temperatures: ",kelvin))
   }  
 }
+
